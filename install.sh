@@ -1,7 +1,7 @@
 #!/bin/bash
-# Installs Airbnb's IntelliJ configs into your user configs.
+# Installs OYO LIFE's IntelliJ configs into your user configs.
 
-echo "Installing Airbnb code style configs..."
+echo "Installing OYO LIFE code style configs..."
 
 CONFIGS="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/configs"
 
@@ -20,4 +20,4 @@ done
 
 echo "Done."
 echo ""
-echo "Restart IntelliJ and/or AndroidStudio, go to preferences, and apply 'Airbnb' or 'AirbnbAndroid'."
+echo "Restart IntelliJ and/or AndroidStudio, go to preferences, and apply 'OyoLife' or 'OyoLifeAndroid'."
